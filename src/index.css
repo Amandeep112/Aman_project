@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Newsreader', serif;
+  
+ 
+}
+.Bannercontainter{
+  background-image: url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* object-fit: cover; */
+}
+.darkbutton {
+display: flex;
+width: 100%;
+justify-content: end;
+position: fixed;
+z-index: 1;
+display: flex;
+
+}
+img{
+  object-fit: cover;
+} 
+  .Inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .Inner button{
+   font-weight: 1000;
+   padding: 5px 15px;
+   background-color: maroon;
+   border: 2px solid transparent;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
+ 
+  .Inner button:hover{
+     color: white;
+  }
+ 
+ .Inner input{
+   padding: 2px 15px;
+   margin-right: 2px;
+   text-transform: uppercase;
+   border: 2px solid transparent;
+   border-radius: 10px;
+   box-sizing: border-box;
+
+ }
+ .Inner h5{
+   font-size: xx-large;
+   font-weight: 700;
+ }
+ 
+ 
+ 
+  

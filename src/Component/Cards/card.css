@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+    
+}
+ 
+.searchContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 0.5rem; */
+    background-color:antiquewhite;
+    /* align-items: center; */
+}
+.searchContainerNight{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 0.5rem; */
+    background-color:black;
+    /* align-items: center; */
+}
+   .HEADING{
+       font-size:20px;
+       font-style: italic;
+       font-weight: 400;
+   }
+.Card{ 
+    align-items: center;
+      
+    width: 350px;
+    position: relative;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0;
+    border-radius: 10px;    
+    box-shadow:  0 0 10px rgb(114, 44, 44);
+}
+.CardNight{ 
+    align-items: center;
+    width: 350px;
+    /* position: relative; */
+    background-color: black;
+    color: white;
+    margin: 0.5rem;
+    padding: 0;
+    border-radius: 10px;    
+    box-shadow:  0 0 10px rgb(114, 44, 44);
+}
+ 
+  
+ .HEADING,.card-title,.PTAG,.Readmor{
+     margin: 3px;
+ }
+
+ 
+ 
+.Card img,.CardNight img{
+    border-top-right-radius: 10px;  
+    border-top-left-radius: 10px;  
+    height: 250px;
+    width:350px; 
+    object-fit: cover;
+    
+}
+.cardtitle h5{
+    margin-top: 5px;
+    margin-left: 5px;
+    
+ }
+ 
+.container.Readmor {
+    display: flex;
+    justify-content: baseline;
+    align-items:baseline;    
+}
+.Readmor  a{ 
+     background-color:black;
+    color: aliceblue;
+    padding: 5px  10px;
+    margin: 10px 15px;
+    text-decoration: none;
+}
+.ReadmorNight  a{ 
+    background-color:antiquewhite;
+   color: maroon;
+   padding: 5px  10px;
+   margin: 10px 15px;
+   text-decoration: none;
+}
+.CardNight:hover {
+    cursor: pointer; 
+     transform: scale(1.03);
+    transition: all .5s ease-in-out;
+}
+.Card:hover{
+    cursor: pointer; 
+    transform: scale(1.03);
+   transition: all .5s ease-in-out;
+}
+a:hover{
+    color: rgb(2, 51, 251);
+    transform:scale(1.03);
+    transition: all 0.5s  ;
+}
